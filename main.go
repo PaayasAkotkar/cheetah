@@ -1,14 +1,7 @@
-// Package chakra implements the pubsub-systems
-package chakra
+package main
 
-// flow:
-// -----------------------------------------------
-// -----------------------------------------------
-//        track the internal Subscriber
-//                      &
-//              Pass the result
-// -----------------------------------------------
-// -----------------------------------------------
-// work-in-progress on edo tensei 😎
-// -----------------------------------------------
-// -----------------------------------------------
+import "app/cheetah/example"
+
+func main() {
+	example.PlayCheetah()
+}
